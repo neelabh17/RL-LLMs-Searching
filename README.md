@@ -146,9 +146,10 @@ As demonstrated in prior work, standard supervised fine-tuning (SFT) often reinf
 
 **GRPO (Guided Reward Policy Optimization)** is a hybrid objective that combines supervised imitation and reward-guided policy updates with a KL-regularization term. It helps stabilize learning by incorporating a reference policy and penalizing large divergences from the base model.
 
-The GRPO loss is defined as:
+<!-- The GRPO loss is defined as: -->
 
-$$\mathcal{L}_{\text{GRPO}} = -\mathbb{E}_{x \sim \pi_\theta} \left[ R(x) \right] + \beta \cdot \text{KL}[\pi_\theta \parallel \pi_0] - \alpha \cdot \mathbb{E}_{x \sim \pi_\theta} \left[ \log \pi_{\text{ref}}(x) \right]$$
+<!-- $$\mathcal{L}_{\text{GRPO}} = -\mathbb{E}_{x \sim \pi_\theta} \left[ R(x) \right] + \beta \cdot \text{KL}[\pi_\theta \parallel \pi_0] - \alpha \cdot \mathbb{E}_{x \sim \pi_\theta} \left[ \log \pi_{\text{ref}}(x) \right]$$ -->
+<!-- ![GRPO Equation](https://latex.codecogs.com/svg.image?$$\mathcal{L}_{\text{GRPO}}=-\mathbb{E}_{x\sim\pi_\theta}\left[R(x)\right]&plus;\beta\cdot\text{KL}[\pi_\theta\parallel\pi_0]-\alpha\cdot\mathbb{E}_{x\sim\pi_\theta}\left[\log\pi_{\text{ref}}(x)\right]$$) -->
 
 Where:  
 - $\pi_\theta$: current model policy  
@@ -297,7 +298,7 @@ Generalization in structured tasks requires more than exposure—it requires the
 ## Work by
 - Neelabh Madan (NYU)
 - Jatin Prakash (NYU)
-- Anirudh Bhuvanesh (Mila)
+<!-- - Anirudh Bhuvanesh (Mila) -->
 
 
 
