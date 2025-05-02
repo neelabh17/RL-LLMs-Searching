@@ -3,7 +3,15 @@
 
 - [Introduction](#introduction)
 - [Related Work](#related-work)
-- [Synthetic Task Design](#synthetic-task-design-star-graph-pathfinding)
+- [Synthetic Task Design: Star Graph Pathfinding](#synthetic-task-design-star-graph-pathfinding)
+- [Out-of-the-Box Evaluation: Qwen2.5 Instruct Models](#out-of-the-box-evaluation-qwen25-instruct-models)
+- [Reinforcement Learning Fine-Tuning (RLFT) with GRPO](#reinforcement-learning-fine-tuning-rlft-with-grpo)
+- [Supervised Fine-Tuning of 1.5B Model Using 14B Model Traces](#supervised-fine-tuning-of-15b-model-using-14b-model-traces)
+- [SFT + RLFT: Combining Supervised and Reinforcement Learning for Structured Search](#sft--rlft-combining-supervised-and-reinforcement-learning-for-structured-search)
+- [Bonus: Handholding with Partial Traces from Qwen-2.5 14B](#bonus-handholding-with-partial-traces-from-qwen-25-14b)
+- [Generalization 🌟](#generalization-)
+- [Work by](#work-by)
+
 
 ## Introduction
 
@@ -140,7 +148,7 @@ As demonstrated in prior work, standard supervised fine-tuning (SFT) often reinf
 
 The GRPO loss is defined as:
 
-$\mathcal{L}_{\text{GRPO}} = -\mathbb{E}_{x \sim \pi_\theta} \left[ R(x) \right] + \beta \cdot \text{KL}[\pi_\theta \parallel \pi_0] - \alpha \cdot \mathbb{E}_{x \sim \pi_\theta} \left[ \log \pi_{\text{ref}}(x) \right]$
+$$\mathcal{L}_{\text{GRPO}} = -\mathbb{E}_{x \sim \pi_\theta} \left[ R(x) \right] + \beta \cdot \text{KL}[\pi_\theta \parallel \pi_0] - \alpha \cdot \mathbb{E}_{x \sim \pi_\theta} \left[ \log \pi_{\text{ref}}(x) \right]$$
 
 Where:  
 - $\pi_\theta$: current model policy  
