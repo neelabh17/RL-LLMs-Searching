@@ -1,0 +1,2 @@
+python helpers/infer.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-3B-Instruct"  --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-0.5B-Instruct"  --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub

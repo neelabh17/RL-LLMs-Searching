@@ -1,0 +1,4 @@
+98 indices
+number of generations: 100
+Pass@100: 53.06122448979592
+Fraction of problems got right from top 100: 2.846938775510202

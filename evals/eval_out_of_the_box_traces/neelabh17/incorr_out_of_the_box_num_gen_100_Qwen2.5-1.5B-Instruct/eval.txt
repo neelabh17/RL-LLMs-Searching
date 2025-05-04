@@ -1,0 +1,5 @@
+Dataset: neelabh17/incorr_out_of_the_box_num_gen_100_Qwen2.5-1.5B-Instruct
+Mean correct: 0.64
+Num correct: 31
+Num generations: 100
+Num samples: 100

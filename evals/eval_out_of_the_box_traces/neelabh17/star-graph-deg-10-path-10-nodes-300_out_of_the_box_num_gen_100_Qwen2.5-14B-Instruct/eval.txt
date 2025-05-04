@@ -1,0 +1,5 @@
+Dataset: neelabh17/star-graph-deg-10-path-10-nodes-300_out_of_the_box_num_gen_100_Qwen2.5-14B-Instruct
+Mean correct: 3.65
+Num correct: 75
+Num generations: 100
+Num samples: 100

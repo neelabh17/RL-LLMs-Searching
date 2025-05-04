@@ -1,0 +1,36 @@
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-0.5B-Instruct" --perctentage_partial 20 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-0.5B-Instruct" --perctentage_partial 40 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-0.5B-Instruct" --perctentage_partial 60 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-0.5B-Instruct" --perctentage_partial 80 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-1.5B-Instruct" --perctentage_partial 20 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-1.5B-Instruct" --perctentage_partial 40 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-1.5B-Instruct" --perctentage_partial 60 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-1.5B-Instruct" --perctentage_partial 80 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-3B-Instruct" --perctentage_partial 20 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-3B-Instruct" --perctentage_partial 40 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-3B-Instruct" --perctentage_partial 60 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_corr" --model_name "Qwen/Qwen2.5-3B-Instruct" --perctentage_partial 80 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+# Incorrect Dataset
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-0.5B-Instruct" --perctentage_partial 20 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-0.5B-Instruct" --perctentage_partial 40 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-0.5B-Instruct" --perctentage_partial 60 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-0.5B-Instruct" --perctentage_partial 80 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-1.5B-Instruct" --perctentage_partial 20 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-1.5B-Instruct" --perctentage_partial 40 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-1.5B-Instruct" --perctentage_partial 60 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-1.5B-Instruct" --perctentage_partial 80 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-3B-Instruct" --perctentage_partial 20 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-3B-Instruct" --perctentage_partial 40 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-3B-Instruct" --perctentage_partial 60 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub
+python helpers/infer_partial.py --dataset_name "neelabh17/star-graph-deg-5-path-5-nodes-300-Qwen2.5-14B-Instruct_1_incorr" --model_name "Qwen/Qwen2.5-3B-Instruct" --perctentage_partial 80 --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub

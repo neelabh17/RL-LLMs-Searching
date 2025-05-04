@@ -1,0 +1,1 @@
+python helpers/infer_anirudh.py --dataset_name "anirudhb11/star-graph-deg-10-path-10-nodes-300" --model_name "Qwen/Qwen2.5-14B-Instruct"  --temperature 0.8 --top_p 0.95 --max_tokens 4096 --num_generations 100 --push_to_hub

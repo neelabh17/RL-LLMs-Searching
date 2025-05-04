@@ -1,0 +1,5 @@
+Dataset: neelabh17/corr_partial_20_num_gen_100_Qwen2.5-3B-Instruct
+Mean correct: 3.32
+Num correct: 56
+Num generations: 100
+Num samples: 100
